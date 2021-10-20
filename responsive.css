@@ -1,0 +1,141 @@
+@media screen and (max-width: 1250px) {
+    
+    div.about {
+        flex-direction: column;
+    }
+
+    section.aboutme {
+        margin-bottom: 200px;
+    }
+    
+    div.algo {
+        order: 1;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    div.about-me {
+        order: 2;
+    }
+
+    div.project {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    div.part {
+        margin: 100px;
+    }
+
+    div.content-projects {
+        order: 2;
+        margin: 80px;
+    }
+
+    div.windows {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .menu-btn {
+        float: right;
+        margin: 40px 25px;
+    }
+
+    .menu-btn__burger {
+        width: 40px;
+        height: 6px;
+    }
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
+      width: 40px;
+      height: 6px;
+    }
+
+    div.logo {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    h2.projects-text {
+        font-size: 3em;
+    }    
+
+    div.imagenes-slider {
+        display: none;
+    }
+
+    div.algo {
+        margin: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    img.code {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    div.about-me {
+        font-size: 1em;
+        width: 80vw;
+    }
+
+    div.part {
+        margin: 200px 0px;
+    }
+
+    div.windows {
+        height: 50vh;
+        width: 40vh;
+        object-fit: cover;
+    }
+
+    img.window1{
+        height: 50vh;
+        width: 40vh;
+    }
+
+    img.window2{
+        height: 50vh;
+        width: 40vh;
+    }
+
+    img.window3{
+        height: 50vh;
+        width: 40vh;
+    }
+
+    div.content-projects {
+        width: 80vw;
+    }
+
+    ul.butooms-projects {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    div.h3{
+        margin-bottom: 70px;
+    }
+
+    div.footer-content{
+        flex-direction: column;
+    } 
+
+    div.h3 {
+        font-size: 2em;
+    }
+
+    ul>li {
+        padding: 20px 0px;
+    }
+}
