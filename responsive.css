@@ -64,7 +64,7 @@
     }
 
     section.aboutme {
-        margin-top: -300px;
+        margin-top: 0px;
     }
     
     div.about {
@@ -75,12 +75,12 @@
 
     div.about-me {
         font-size: 1.5em;
-        margin-top: -300px;
-        margin-bottom: -500px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     
     div.title-project {
-        padding-bottom: 100px;
+        padding-bottom: 200px;
     }
 
     h2.projects-text {
@@ -110,6 +110,14 @@
 
     div.part {
         position: relative;
+    }
+
+    div.part:nth-child(3){
+        margin-bottom: 200px;
+    }
+
+    div.part:nth-child(4){
+        margin-bottom: 200px;
     }
 
     div.windows {
