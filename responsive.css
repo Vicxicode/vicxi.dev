@@ -93,8 +93,12 @@
         width: 80vw;
     }
 
-    div.part {
-        position: relative;
+    .content1:hover .card {
+        display: none;
+    }
+    
+    .content1 .card:hover {
+        display: none;
     }
 
     div.h3{
