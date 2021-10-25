@@ -94,11 +94,11 @@
     }
 
     .content1:hover .card {
-        display: none;
+        transform: scale(0.9);
     }
     
     .content1 .card:hover {
-        display: none;
+        transform: scale(1.1);
     }
 
     div.h3{
