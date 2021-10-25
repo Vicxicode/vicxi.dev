@@ -9,10 +9,6 @@ p {
     text-align: justify;
 }
 
-p.p-w{
-    width: 85%;
-}
-
 html, body {
     width: 100%;
     height: 100%;
@@ -228,95 +224,98 @@ div.title-project {
     margin: auto;
 }
 
-div.project {
-    width: 75%;
-    display: flex;
-    margin: auto;
-}
-
 h2.projects-text {
     font-size: 4em;
 }
 
-div.content-projects {
+div.content1 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    position: relative;
+    width: 75%;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
-ul.butooms-projects {
-    display: flex;
+div.card {
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    transition: 0.5s;
 }
 
-a.text-projects {  
-    background-color: black;
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-    margin: 10px 50px;
-    display: inline-block;
-    white-space: pre;
+.content1:hover .card {
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+.content1 .card:hover {
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+div.circle1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+}
+
+div.circle2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #0cb8b6;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+}
+
+div.circle3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #0cb8b6;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+}
+
+img.v {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+}
+
+div.content-project {
+    position: absolute;
+    bottom: 10px;
     padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: -5px 5px 10px -7px;
-    background-image: linear-gradient(
-        -75deg,
-        transparent 0,
-        transparent 5%,
-        rgba(255,255,255,0.5) 5%,
-        rgba(255,255,255,0.5) 10%,
-        transparent 30%,
-        transparent 100%
-    );
-    background-size: 200% 100%;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    transition: 1.2s;
+    text-align: center;  
 }
 
-a.text-projects:hover {
-    background-position: -120% 0;
+div.content-project p {
+    color: #666;
 }
 
-div.windows {
-    height: 70vh;
-    width: 60vh;
-}
-
-img.window1 {
-    height: 70vh;
-    width: 60vh;
-    object-fit:contain;
-    will-change: transform;
-    transition: 0.5s ease transform;
-    border-radius: 10px;
-    box-shadow: -1px 20px 50px -10px;
-}
-
-img.window2 {
-    height: 70vh;
-    width: 60vh;
-    object-fit: cover;
-    will-change: transform;
-    transition: 0.5s ease transform;
-    border-radius: 10px;
-    box-shadow: -1px 20px 50px -10px;
-}
-
-img.window3 {
-    height: 70vh;
-    width: 60vh;
-    object-fit: cover;
-    will-change: transform;
-    transition: 0.5s ease transform;
-    border-radius: 10px;
-    box-shadow: -1px 20px 50px -10px;
-}
-
-a{
-    color: inherit;
+div.content-project a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
 }
 
 section.waves {
