@@ -63,9 +63,22 @@
         margin-top: 0px;
         margin-bottom: 0px;
     }
+
+    div.part:nth-child(1) {
+        margin-bottom: -200px;
+    }
+
+    div.part:nth-child(2) {
+        margin-top: -100px;
+        margin-bottom: -400px;
+    }
+
+    div.part:nth-child(3) {
+        margin-bottom: -400px;
+    }
     
     div.title-project {
-        padding-bottom: 200px;
+        padding-bottom: 0px;
     }
 
     h2.projects-text {
