@@ -94,11 +94,15 @@
     }
 
     .content1:hover .card {
-        transform: scale(0.9);
+        filter:none;
+        transform: scale(1);
+        opacity: 1;
     }
     
     .content1 .card:hover {
-        transform: scale(1.1);
+        filter:none;
+        transform: scale(1);
+        opacity: 1;
     }
 
     div.h3{
