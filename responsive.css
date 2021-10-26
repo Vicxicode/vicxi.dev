@@ -65,16 +65,16 @@
     }
 
     div.part:nth-child(1) {
-        margin-bottom: -200px;
+        margin-bottom: 100px;
     }
 
     div.part:nth-child(2) {
-        margin-top: -100px;
-        margin-bottom: -400px;
+        margin-top: -200px;
+        margin-bottom: -200px;
     }
 
     div.part:nth-child(3) {
-        margin-bottom: -400px;
+        margin-bottom: -200px;
     }
     
     div.title-project {
