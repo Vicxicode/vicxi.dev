@@ -161,6 +161,8 @@ a.nav-text:hover {
 }
 
 #side-menu li {
+    left: 50px;
+    right: 0;
     display: flex;
 }
 
