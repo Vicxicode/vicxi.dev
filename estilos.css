@@ -160,6 +160,15 @@ a.nav-text:hover {
     right: 0;
 }
 
+#side-menu li {
+    display: flex;
+}
+
+.redes {
+    width: 50xp;
+    height: 50xp;
+}
+
 section.slider {
     z-index: 10;
     width: 100%;
